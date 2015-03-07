@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@ 
+
+override_dh_auto_build:
+	make docs
+
+override_dh_auto_test:
+	#make test
+
+override_dh_installdocs:
+	dh_installdocs
+	cp -r docs/_build debian/casperjs/usr/share/doc/casperjs/html
+
+override_dh_compress:
+	dh_compress -Xchangelog.html

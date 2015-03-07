@@ -1,0 +1,15 @@
+Source: casperjs
+Section: unknown
+Priority: optional
+Maintainer: unknown <unknown>
+Build-Depends: debhelper (>= 8.0.0), python-sphinx
+Standards-Version: 3.9.4
+Homepage: http://casperjs.org/
+Vcs-Git: https://github.com/n1k0/casperjs.git
+Vcs-Browser: https://github.com/n1k0/casperjs
+
+Package: casperjs
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

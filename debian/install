@@ -1,0 +1,6 @@
+bin/casperjs /usr/share/casperjs/bin/
+bin/bootstrap.js /usr/share/casperjs/bin/
+bin/usage.txt /usr/share/casperjs/bin/
+modules/*.js /usr/share/casperjs/modules/
+samples/*.{js,coffee} /usr/share/casperjs/samples/
+package.json /usr/share/casperjs/
